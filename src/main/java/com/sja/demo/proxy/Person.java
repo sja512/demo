@@ -1,4 +1,4 @@
-package sja.proxy;
+package com.sja.demo.proxy;
 
 /**
  * @author sja  created on 2018/7/31.

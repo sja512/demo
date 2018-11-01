@@ -1,4 +1,4 @@
-package sja.proxy;
+package com.sja.demo.proxy;
 
 /**
  * 静态代理

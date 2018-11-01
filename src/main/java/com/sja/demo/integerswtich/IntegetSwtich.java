@@ -1,4 +1,4 @@
-package sja.integerswtich;
+package com.sja.demo.integerswtich;
 
 import java.lang.reflect.Field;
 

@@ -1,4 +1,4 @@
-package sja.prototypepattern;
+package com.sja.demo.prototypepattern;
 
 /**
  * @author sja  created on 2018/10/31.

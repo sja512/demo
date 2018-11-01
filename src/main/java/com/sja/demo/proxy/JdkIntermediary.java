@@ -1,4 +1,4 @@
-package sja.proxy;
+package com.sja.demo.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -6,9 +6,10 @@ import java.lang.reflect.Proxy;
 
 /**
  * 中介代理
+ * jdk动态生成一个代理类继承Proxy实现接口
  * @author sja  created on 2018/7/31.
  */
-public class Intermediary implements InvocationHandler{
+public class JdkIntermediary implements InvocationHandler{
 
     private Object target;
     //获取被代理的对象
