@@ -21,7 +21,7 @@ public class ThreadTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("----------------------------结束");
+        //System.out.println("----------------------------结束");
     }
 
     static class MyTask implements Runnable {
@@ -36,7 +36,7 @@ public class ThreadTest {
             System.out.println(Thread.currentThread().getName());
             countDownLatch.countDown();
             try {
-                Thread.sleep(1);
+                Thread.sleep(10000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -52,9 +52,9 @@ public class ThreadTest {
         public synchronized void ticket() {
             System.out.println("电影票号：" + qty);
             this.qty--;
-            if (qty < 0) {
-                System.out.println("无票了");
-            }
+//            if (qty < 0) {
+//                System.out.println("无票了");
+//            }
 
         }
     }
