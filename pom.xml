@@ -16,7 +16,7 @@
         <spring.version>4.0.3.RELEASE</spring.version>
         <slf4j.version>1.7.12</slf4j.version>
         <logback.version>1.0.13</logback.version>
-        <junit.version>4.11</junit.version>
+        <junit.version>4.13.1</junit.version>
         <fastjson.version>1.2.31</fastjson.version>
         <hadoop.version>2.6.5</hadoop.version>
         <hbase.version>1.4.5</hbase.version>
