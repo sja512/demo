@@ -18,7 +18,7 @@
         <logback.version>1.0.13</logback.version>
         <junit.version>4.11</junit.version>
         <fastjson.version>1.2.31</fastjson.version>
-        <hadoop.version>2.6.5</hadoop.version>
+        <hadoop.version>2.7.0</hadoop.version>
         <hbase.version>1.4.5</hbase.version>
         <hive.version>1.1.0-cdh5.12.0</hive.version>
         <gson.version>2.6.2</gson.version>
